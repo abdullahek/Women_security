@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Women_security">
         <activity
+            android:name=".chat_dtl"
+            android:label="@string/title_activity_chat_dtl"
+            android:theme="@style/Theme.Women_security.NoActionBar"></activity>
+        <activity
             android:name=".landing"
             android:label="@string/title_activity_landing"
-            android:theme="@style/Theme.Women_security.NoActionBar"></activity>
+            android:theme="@style/Theme.Women_security.NoActionBar" />
         <activity android:name=".settings" />
         <activity android:name=".dashboard" />
         <activity android:name=".register" />
@@ -24,7 +28,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
